@@ -1,0 +1,55 @@
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.App-header table {
+  width: 100% !important;
+  border-spacing: 0px !important;
+}
+.App-header table, .App-header table tr, .App-header table td {
+  border-bottom: 1px solid #ddd;
+  vertical-align: middle;
+}
+.round {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: #ccc solid 1px !important;
+  background-color: #eee !important;
+  vertical-align: middle;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.number {
+  color: #fff;
+  background-color: #61dafb !important;
+}
+.round-0{
+  background-color: #d11b1b !important;
+}
+.round-1{
+  background-color: #f06a03f5 !important;
+}
+.round-2{
+  background-color: #bcbc11 !important;
+}
+.Count{
+  color:  #000;
+}
+.red-text {
+  color: #d11b1b !important;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
